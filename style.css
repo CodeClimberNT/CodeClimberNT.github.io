@@ -1,0 +1,26 @@
+html {
+    background-color: rgb(127, 202, 221);
+}
+
+header {
+    text-align: center;
+}
+
+#propic{
+    vertical-align: middle;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.logo {
+    vertical-align: middle;
+    width: 1.5em;
+    height: 1.5em;
+    border-radius: 50%;
+}
+
+#bestr{
+    height: 1.5em;
+
+}
