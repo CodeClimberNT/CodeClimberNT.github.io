@@ -1,26 +1,61 @@
 html {
+    background-color: rgb(151, 200, 243);
+}
+
+body {
     background-color: rgb(127, 202, 221);
+    font-size: 16px;
+    margin: 50px;
+    padding: 2em 2em 0.1em 2em;
 }
 
 header {
     text-align: center;
 }
 
-#propic{
+#propic {
     vertical-align: middle;
-    width: 100px;
-    height: 100px;
+    width: 7em;
+    height: 7em;
     border-radius: 50%;
 }
 
 .logo {
     vertical-align: middle;
-    width: 1.5em;
-    height: 1.5em;
-    border-radius: 50%;
+    width: 2em;
+    height: 2em;
+    border-radius: 20%;
+    float: left;
+    margin-top: -0.3em;
+    margin-right: 0.3em;
+
+}
+.progetti, .certificati{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 2em;
 }
 
-#bestr{
-    height: 1.5em;
+.titolo-sezione {
+    width: 100%;
+    text-align: center;
+}
 
+
+.nome-sito{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+li:not(:last-child) {
+    margin-bottom: 5px;
+}
+
+footer {
+    margin-top: 2em;
+    margin-bottom: 0;
+    text-align: right;
 }

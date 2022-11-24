@@ -5,12 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nicolò Taormina</title>
+    <link rel="shortcut icon" href="img/favicon.png" style="border-radius: 50%;">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header>
-        <img src="img/nicktaormina3-picture.png" alt="Foto Profilo" width="100" height="100" id="propic" class="logo">
+        <img src="img/nicktaormina3-picture.png" alt="Foto Profilo" width="100" height="100" id="propic">
         <h1>Nicolò Taormina</h1>
 
     </header>
@@ -23,11 +24,11 @@
         </ul>
     </nav>
 
-    <hr />
+    <hr>
 
     <main>
         <p>
-        <h2>Descrizione</h2>
+        <h2 class="titolo-sezione">Descrizione</h2>
         Dottore in Ingegneria Cibernetica con votazione 110 e Lode presso l'Università Degli Studi di Palermo.<br>
         Appassionato di:
         </p>
@@ -42,151 +43,139 @@
     </main>
 
     <hr>
-    <section>
-        <h2>Progetti</h2>
-        <h3>
-            <img src="img/datacamp-logo.jpg" alt="datacamp" class="logo">
-            <a href="https://app.datacamp.com/profile/nicktaormina3">DataCamp</a>
-        </h3>
-        <h3>
-            <img src="img/freecodecamp-logo.jpg" alt="freecodecamp" class="logo">
-            <a href="https://www.freecodecamp.org/nicktaormina3">FreeCodeCamp</a>
-        </h3>
-        <ol>
-            <li>
-                <a
-                    href="https://htmlpreview.github.io/?https://github.com/nicktaormina3/CatPhotoApp/blob/master/index.html">CatPhotoApp</a>
-            </li>
-            <li><a
-                    href="https://htmlpreview.github.io/?https://github.com/nicktaormina3/CafeMenu/blob/master/index.html">Cafe
-                    Menu</a></li>
-        </ol>
+    <section class="progetti">
+        <h2 class="titolo-sezione">Progetti</h2>
+
+        <!-- Progetti DataCamp -->
+        <article>
+            <div class="nome-sito">
+                <img src="img/datacamp-logo.jpg" alt="datacamp" class="logo">
+                <h3><a href="https://app.datacamp.com/profile/nicktaormina3">DataCamp</a></h3>
+            </div>
+            <ul>
+                <li>XGBoost</li>
+            </ul>
+        </article>
+
+        <!-- Progetti FreeCodeCamp -->
+        <article>
+            <div class="nome-sito">
+                <img src="img/freecodecamp-logo.jpg" alt="freecodecamp" class="logo">
+                <h3>
+                    <a href="https://www.freecodecamp.org/nicktaormina3">FreeCodeCamp</a>
+                </h3>
+            </div>
+                <ul>
+                    <li>
+                        <a
+                            href="https://htmlpreview.github.io/?https://github.com/nicktaormina3/CatPhotoApp/blob/master/index.html">CatPhotoApp</a>
+                    </li>
+                    <li><a
+                            href="https://htmlpreview.github.io/?https://github.com/nicktaormina3/CafeMenu/blob/master/index.html">Cafe
+                            Menu</a></li>
+                </ul>
+        </article>
     </section>
 
     <hr>
 
-    <section>
+    <section class="certificati">
 
-        <h2>Certificati</h2>
-        <h3>
-            <img src="img/datacamp-logo.jpg" alt="datacamp" class="logo">
-            <a href="https://app.datacamp.com/profile/nicktaormina3">DataCamp</a>:
-        </h3>
-        <ol>
-            <li><a href="certification/datacamp/Machine Learning with scikit-learn.pdf">Machine Learning with
-                    scikit-learn</a></li>
-            <li><a href="certification/datacamp/Unsupervised Learning in Python.pdf">Unsupervised Learning in Python</a>
-            </li>
-            <li><a href="certification/datacamp/Supervised Learning with scikit-learn.pdf">Supervised Learning with
-                    scikit-learn</a></li>
-            <li><a href="certification/datacamp/Linear Classifiers in Python.pdf">Linear Classifiers in Python</a></li>
-            <li><a href="certification/datacamp/Machine Learning with Tree-Based Models in Python.pdf">Machine Learning
-                    with Tree-Based Models in Python</a></li>
-            <li><a href="certification/datacamp/Extreme Gradient Boosting with XGBoost.pdf">Extreme Gradient Boosting
-                    with XGBoost</a></li>
-            <li><a href="certification/datacamp/Cluster Analysis in Python.pdf">Cluster Analysis in Python</a></li>
-            <li><a href="certification/datacamp/Dimensionality Reduction in Python.pdf">Dimensionality Reduction in
-                    Python</a></li>
-            <li><a href="certification/datacamp/Preprocessing for Machine Learning in Python.pdf">Preprocessing for
-                    Machine Learning in Python</a></li>
-            <li><a href="certification/datacamp/Machine Learning for Time Series Data in Python.pdf">Machine Learning
-                    for Time Series Data in Python</a></li>
-            <li><a href="certification/datacamp/Feature Engineering for Machine Learning in Python.pdf">Feature
-                    Engineering for Machine Learning in Python</a></li>
-            <li><a href="certification/datacamp/Model Validation in Python.pdf">Model Validation in Python</a></li>
-        </ol>
-        <br>
-
-        <img src="img/bestr-logo.svg" alt="bestr logo" id="bestr">
-        <!-- BADGE BEGIN -->
-        <div class='bestr-container'>
-            <style scoped>
-                .bestr-container {
-                    display: block;
-                    background: #FFFFFF;
-                    border-width: 1px;
-                    border-style: solid;
-                    border-color: #E1E8ED;
-                    border-radius: 0.42857em;
-                    width: 560px;
-                    height: 125px;
-                    overflow: hidden;
-                }
-
-                .bestr-badge_imageUrl {
-                    display: block;
-                    float: left;
-                    background: #E1E8ED;
-                }
-
-                .bestr-badge_imageUrl_svg {
-                    width: 125px;
-                    height: 125px;
-                }
-
-                .bestr-description {
-                    display: block;
-                    background: #FFFFFF;
-                    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-                    font-size: 14px;
-                    line-height: 1.3em;
-                    padding: .75em;
-                    overflow: hidden;
-                }
-
-                .bestr-badge_name {
-                    display: block;
-                    font-size: 1em;
-                    font-weight: bold;
-                    max-height: 1.3em;
-                    white-space: nowrap;
-                    overflow: hidden;
-                    text-overflow: ellipsis;
-                }
-
-                .bestr-badge_obidescription {
-                    display: block;
-                    max-height: 3.9em;
-                }
-
-                .bestr-link {
-                    display: block;
-                    max-height: 1.3em;
-                }
-            </style>
-            <div class='bestr-badge_imageUrl'><a style='text-decoration: none; box-shadow:none; border: none;'
-                    target='_blank' href='https://bestr.it/award/show/Wi7tNqenQOuhlMSCKHpnjg?ln=it'><img
-                        style='margin:0px !important; padding:0px !important; border:0px !important;'
-                        class='bestr-badge_imageUrl_svg'
-                        src='https://bestr.it/filemanager/show/ef39934a-123a-4d6d-b709-5a7baeabba7e.png'
-                        alt='Bestr Badge'></a>
+        <h2 class="titolo-sezione">Certificati</h2>
+        <!-- Certificati Datacamp -->
+        <article>
+            <div class="nome-sito">
+                <img src="img/datacamp-logo.jpg" alt="datacamp" class="logo">
+                <h3>
+                    <a href="https://app.datacamp.com/profile/nicktaormina3">DataCamp</a>
+                </h3>
             </div>
-            <div class='bestr-description'>
-                <div class='bestr-badge_name'>
-                    <a style='text-decoration: none; color:#292F33; box-shadow:none; border: none;' target='_blank'
-                        href='https://bestr.it/award/show/Wi7tNqenQOuhlMSCKHpnjg?ln=it'>English B2</a>
-                </div>
-                <div class='bestr-badge_obidescription'><a
-                        style='text-decoration: none; color:#292F33; box-shadow:none; border: none;' target='_blank'
-                        href='https://bestr.it/award/show/Wi7tNqenQOuhlMSCKHpnjg?ln=it'>The English B2 Badge certifies
-                        the achievement of a level equivalent to B2 for the English language, according to the European
-                        system defining standards of linguistic competence, ...</a></div>
-                <div class='bestr-link'><a style='text-decoration: none; color: #8899A6; box-shadow:none; border: none;'
-                        target='_blank' href='https://bestr.it/award/show/Wi7tNqenQOuhlMSCKHpnjg?ln=it'>bestr.it
-                    </a>
-                </div>
+            <ul>
+                <li><a href="certification/datacamp/Machine Learning with scikit-learn.pdf">Machine Learning with
+                        scikit-learn</a></li>
+                <li><a href="certification/datacamp/Unsupervised Learning in Python.pdf">Unsupervised Learning in
+                        Python</a>
+                </li>
+                <li><a href="certification/datacamp/Supervised Learning with scikit-learn.pdf">Supervised Learning with
+                        scikit-learn</a></li>
+                <li><a href="certification/datacamp/Linear Classifiers in Python.pdf">Linear Classifiers in Python</a>
+                </li>
+                <li><a href="certification/datacamp/Machine Learning with Tree-Based Models in Python.pdf">Machine
+                        Learning
+                        with Tree-Based Models in Python</a></li>
+                <li><a href="certification/datacamp/Extreme Gradient Boosting with XGBoost.pdf">Extreme Gradient
+                        Boosting
+                        with XGBoost</a></li>
+                <li><a href="certification/datacamp/Cluster Analysis in Python.pdf">Cluster Analysis in Python</a></li>
+                <li><a href="certification/datacamp/Dimensionality Reduction in Python.pdf">Dimensionality Reduction in
+                        Python</a></li>
+                <li><a href="certification/datacamp/Preprocessing for Machine Learning in Python.pdf">Preprocessing for
+                        Machine Learning in Python</a></li>
+                <li><a href="certification/datacamp/Machine Learning for Time Series Data in Python.pdf">Machine
+                        Learning
+                        for Time Series Data in Python</a></li>
+                <li><a href="certification/datacamp/Feature Engineering for Machine Learning in Python.pdf">Feature
+                        Engineering for Machine Learning in Python</a></li>
+                <li><a href="certification/datacamp/Model Validation in Python.pdf">Model Validation in Python</a></li>
+            </ul>
+        </article>
+
+        <!-- Certificati Bestr -->
+        <article>
+            <div class="nome-sito">
+                <img src="img/bestr-logo.svg" alt="bestr logo" class="logo">
+                <h3>.Bestr</h3>
             </div>
-        </div>
-        <!--BADGE END-->
+            <!-- BADGE BEGIN -->
+            <ul>
+                <li>
+                    <a href="https://bestr.it/award/show/Wi7tNqenQOuhlMSCKHpnjg?ln=it">English B2</a>
+                </li>
+            </ul>
+            <!--BADGE END-->
+        </article>
 
-        <h3>Samsung Italia</h3>
-        <p> <a href="https://www.samsung.com/it/campaign/innovation-campus/">Samsung Innovation Campus</a></p>
+        <!-- Certificati Samsung -->
+        <article>
+            <div class="nome-sito">
+                <img src="img/samsung-logo.svg" alt="logo samsung" class="logo">
+                <h3>Samsung Italia</h3>
+            </div>
+            <ul>
+                <li><a href="https://www.samsung.com/it/campaign/innovation-campus/">Samsung Innovation Campus</a></li>
+            </ul>
+        </article>
+        <!-- Certificati ONstairs -->
+        <article>
+            <div class="nome-sito">
+                <img src="img/onstairs-logo.jpg" alt="onstairs logo" class="logo">
+                <h3> <a href="https://academy.onstairs.com/user/profile.php?id=21200">ONstairs</a> </h3>
+            </div>
+            <ul><li> <a href="certification/onstairs/Security_Soft_Start-Attestato_corso_SSS_5040.pdf">Security Soft Start</a> </li></ul>
+        </article>
+        <!-- Certificati Udemy -->
+        <article>
+            <div class="nome-sito">
+                <img src="img/udemy-logo.webp" alt="logo udemy" class="logo">
+                <h3>
+                    <a href="https://www.udemy.com/user/nicolo-taormina/">Udemy</a>
+                </h3>
+            </div>
+            <ul>
+                <li><a href="certification/udemy/Automate the Boring Stuff with Python Programming.pdf">Automate the
+                        Boring Stuff with Python Programming</a></li>
+                <li><a href="certification/udemy/Excel - Microsoft Excel Beginner to Advanced [2021].pdf">Excel -
+                        Microsoft Excel Beginner to Advanced [2021]</a></li>
+                <li><a href="certification/udemy/Web Hacking for Beginners.pdf">Web Hacking for Beginners</a></li>
+                <li><a href="certification/udemy/The Complete Introduction to C++ Programming.pdf">The Complete
+                        Introduction to C++ Programming</a></li>
+            </ul>
+        </article>
 
-        <h3>ONstairs</h3>
-        <img src="img/onstairs-logo.jpg" alt="onstairs logo" class="logo">
-        <a href="certification/onstairs/Security_Soft_Start-Attestato_corso_SSS_5040.pdf">Security
-            Soft Start</a>
+        
     </section>
+
+    <hr>
 
     <footer>
         <p>© 2022 Nicolò Taormina</p>
