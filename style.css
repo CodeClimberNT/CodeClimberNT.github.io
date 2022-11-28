@@ -33,7 +33,7 @@ hr{
     margin-right: 0.3em;
 
 }
-.progetti, .certificati{
+#progetti, #certificati{
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
