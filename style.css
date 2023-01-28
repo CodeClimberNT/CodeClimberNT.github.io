@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 html {
     background-color: rgb(151, 200, 243);
 }
@@ -13,7 +17,7 @@ header {
     text-align: center;
 }
 
-hr{
+hr {
     margin: 2em 0;
 }
 
@@ -33,7 +37,9 @@ hr{
     margin-right: 0.3em;
 
 }
-#progetti, #certificati{
+
+#progetti,
+#certificati {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -46,15 +52,20 @@ hr{
 }
 
 
-.nome-sito{
+.nome-sito {
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
 }
 
 li:not(:last-child) {
     margin-bottom: 5px;
+}
+
+.lista {
+    display: flex;
+    flex-flow: row wrap;
 }
 
 footer {
@@ -62,4 +73,3 @@ footer {
     margin-bottom: 0;
     text-align: right;
 }
-
