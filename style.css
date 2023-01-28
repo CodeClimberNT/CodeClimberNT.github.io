@@ -9,8 +9,9 @@ html {
 body {
     background-color: rgb(127, 202, 221);
     font-size: 16px;
-    margin: 50px;
+    margin: 50px auto;
     padding: 2em 2em 0.1em 2em;
+    max-width: 110em;
 }
 
 header {
