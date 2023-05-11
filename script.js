@@ -1,6 +1,7 @@
-function getCopyRight() {
-    const year = " " + new Date().getFullYear() + " ";
-    const fullName = "Nicolò Taormina";
-    const copyRightSymbol = "©";
-    document.getElementById("year").innerHTML = copyRightSymbol + year + fullName;
+function setCopyright() {
+    const footer = document.getElementById("year");
+    const currentYear = new Date().getFullYear();
+    const startYear = 2022;
+    const name = "Nicolò Taormina";
+    footer.textContent = "\u00A9 " + startYear + "-" + currentYear + " " + name;
 }
