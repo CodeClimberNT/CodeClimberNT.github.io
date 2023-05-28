@@ -69,11 +69,12 @@ li:not(:last-child) {
     flex-flow: row wrap;
 }
 
+.lista ul li:not(.certification-project){
+    list-style-type: "📚";
+}
+
 .certification-project {
-    list-style-type: "✒️";
-    margin-left: 0;
-    padding-left: 1em;
-    text-indent: -1em;
+    list-style-type: "📝";
 }
 
 footer {
