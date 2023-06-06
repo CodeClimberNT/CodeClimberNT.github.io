@@ -69,11 +69,11 @@ li:not(:last-child) {
     flex-flow: row wrap;
 }
 
-.lista ul li:not(.certification-project){
+.esercizi {
     list-style-type: "📚";
 }
 
-.certification-project {
+.quiz {
     list-style-type: "📝";
 }
 
