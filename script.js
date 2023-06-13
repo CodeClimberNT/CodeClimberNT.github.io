@@ -1,5 +1,5 @@
 function setCopyright() {
-    const footer = document.getElementById("year");
+    const footer = document.getElementById("footer");
     const currentYear = new Date().getFullYear();
     const startYear = 2022;
     const name = "Nicolò Taormina";
