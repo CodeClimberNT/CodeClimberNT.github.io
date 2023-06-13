@@ -39,6 +39,8 @@ hr {
 
 }
 
+
+
 #progetti,
 #certificati {
     display: flex;
@@ -53,7 +55,8 @@ hr {
 }
 
 
-.nome-sito {
+.nome-sito,
+.nome-progetto {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -64,9 +67,17 @@ li:not(:last-child) {
     margin-bottom: 5px;
 }
 
+#responsive-web-design{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
 .lista {
     display: flex;
     flex-flow: row wrap;
+    justify-content: center;
+
 }
 
 .esercizi {
