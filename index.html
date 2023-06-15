@@ -4,38 +4,77 @@
 <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Portfolio di Nicolò Taormina (In lavorazione)">
-        <title>Nicolò Taormina</title>
-        <link rel="shortcut icon" href="img/favicon.png" style="border-radius: 50%;">
+        <title>Il mio Portfolio</title>
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" crossorigin="anonymous">
         <script src="script.js"></script>
-
 </head>
 
-<body onload="javascript:setCopyright()">
-        <section class="top-nav">
-                <div><img src="img/favicon.png" alt="logo" id="logo"></div>
-                <input id="menu-toggle" type="checkbox" />
-                <label class='menu-button-container' for="menu-toggle">
-                        <div class='menu-button'></div>
-                </label>
+<body class="dark-mode">
+        <nav class="navbar">
+                <ul>
+                        <li><a href="#about">Chi sono</a></li>
+                        <li><a href="#projects">Progetti</a></li>
+                        <li><a href="#certificates">Certificati</a></li>
+                        <li><a href="#social">Social</a></li>
+                        <li class="dark-mode-toggle">
+                                <button id="dark-mode-toggle-button" aria-label="Modalità Dark">
+                                        <img src="img/icon/sun.svg" class="sun-icon" alt="Sun Icon">
+                                        <img src="img/icon/moon.svg" class="moon-icon" alt="Moon Icon">
+                                </button>
+                        </li>
+                </ul>
+        </nav>
 
-                <ul class="menu">
-                        <li><a href="">One</a></li>
-                        <li><a href="">Two</a></li>
-                        <li><a href="">Three</a></li>
-                        <li><a href="">Four</a></li>
-                        <li><a href="">Five</a></li>
+        <section id="about">
+                <h2>Descrizione di me</h2>
+                <p>Ciao, sono [Il tuo nome]. Sono uno sviluppatore web appassionato...</p>
+                <img src="profile.jpg" alt="Foto personale">
+        </section>
+
+        <section id="projects">
+                <h2>Progetti realizzati</h2>
+                <ul>
+                        <li>
+                                <h3>Progetto 1</h3>
+                                <p>Descrizione breve del progetto 1...</p>
+                                <img src="project1.jpg" alt="Progetto 1">
+                                <a href="progetto1.html">Dettagli</a>
+                        </li>
+                        <li>
+                                <h3>Progetto 2</h3>
+                                <p>Descrizione breve del progetto 2...</p>
+                                <img src="project2.jpg" alt="Progetto 2">
+                                <a href="progetto2.html">Dettagli</a>
+                        </li>
                 </ul>
         </section>
 
-        <main id="main">
-                kjshgfhskjhgfskj
-        </main>
+        <section id="certificates">
+                <h2>Certificati ottenuti</h2>
+                <ul>
+                        <li>
+                                <h3>Certificato 1</h3>
+                                <p>Descrizione breve del certificato 1...</p>
+                                <img src="certificate1.jpg" alt="Certificato 1">
+                        </li>
+                        <li>
+                                <h3>Certificato 2</h3>
+                                <p>Descrizione breve del certificato 2...</p>
+                                <img src="certificate2.jpg" alt="Certificato 2">
+                        </li>
+                </ul>
+        </section>
 
-        <footer id="footer">
-                <p>&copy; 2022 Nicolò Taormina</p>
-        </footer>
+        <section id="social">
+                <h2>Seguimi su</h2>
+                <ul>
+                        <!-- TODO ICONE LINK INVECE DEL TITOLO -->
+                        <li><a href="https://www.linkedin.com/in/ilmioprofilo">linkedin<i class="fa-brands fa-linkedin"></i></a>
+                        </li>
+                </ul>
+        </section>
+        <footer id="footer">&copy; 2022-2023 Nicolò Taormina</footer>
 </body>
 
 </html>
