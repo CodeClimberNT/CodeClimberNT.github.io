@@ -4,9 +4,9 @@
 <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Il mio Portfolio</title>
+        <title>Il mio Portfolio - Nicolò Taormina</title>
         <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" crossorigin="anonymous">
+        <script src="https://kit.fontawesome.com/db01e6e24c.js" crossorigin="anonymous"></script>
         <script src="script.js"></script>
 </head>
 
@@ -19,6 +19,8 @@
                         <li><a href="#social">Social</a></li>
                         <li class="dark-mode-toggle">
                                 <button id="dark-mode-toggle-button" aria-label="Modalità Dark">
+                                        <!-- <i class="fa-solid fa-sun sun-icon"></i>
+                                        <i class="fa-solid fa-moon moon-icon"></i> -->
                                         <img src="img/icon/sun.svg" class="sun-icon" alt="Sun Icon">
                                         <img src="img/icon/moon.svg" class="moon-icon" alt="Moon Icon">
                                 </button>
@@ -27,9 +29,11 @@
         </nav>
 
         <section id="about">
-                <h2>Descrizione di me</h2>
+                <div class="title-container">
+                        <h1 id="title">Nicolò Taormina</h1>
+                </div>
                 <p>Ciao, sono [Il tuo nome]. Sono uno sviluppatore web appassionato...</p>
-                <img src="profile.jpg" alt="Foto personale">
+                <img src="img/profile.png" alt="Foto personale" class="profile-photo">
         </section>
 
         <section id="projects">
@@ -69,8 +73,13 @@
         <section id="social">
                 <h2>Seguimi su</h2>
                 <ul>
-                        <!-- TODO ICONE LINK INVECE DEL TITOLO -->
-                        <li><a href="https://www.linkedin.com/in/ilmioprofilo">linkedin<i class="fa-brands fa-linkedin"></i></a>
+                        <li><a href="https://www.linkedin.com/in/mioprofilo/"><i
+                                                class="fa-brands fa-linkedin-in"></i></a>
+                        </li>
+                        <li><a href="https://www.freecodecamp.org/mioprofilo"><i
+                                                class="fa-brands fa-free-code-camp"></i></a>
+                        </li>
+                        <li><a href="https://github.com/mioprofilo"><i class="fa-brands fa-github"></i></a>
                         </li>
                 </ul>
         </section>
