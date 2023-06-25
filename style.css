@@ -90,7 +90,7 @@ body {
     filter: invert(93%) sepia(13%) saturate(117%) hue-rotate(153deg) brightness(91%) contrast(91%);
 }
 
-.dark-mode-toggle #dark-mode-toggle-button i{
+.dark-mode-toggle #dark-mode-toggle-button i {
     vertical-align: bottom;
 }
 
@@ -99,16 +99,22 @@ section {
     background-color: #fff;
     color: #333;
     padding: 50px 20px;
-}
-
-section h2 {
-    margin-top: 0;
-    color: #333;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
 }
 
 .dark-mode section {
     background-color: #333;
     color: #fff;
+}
+
+.dark-mode section:hover {
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+}
+
+section h2 {
+    margin-top: 0;
+    color: #333;
 }
 
 .dark-mode section h2 {
@@ -117,73 +123,43 @@ section h2 {
 
 /* Stile delle immagini */
 img {
-    max-width: 100%;
+    max-width: 5vw;
+    border-radius: 50%;
+    height: auto;
 }
 
-/* Stile dei social */
-#social ul {
+
+/* Stile delle icone social */
+
+.social-icons {
     display: flex;
 }
 
-#social ul li {
+.social-icons a {
     margin-right: 10px;
-}
-
-#social ul li a {
     color: #333;
     text-decoration: none;
 }
 
-.dark-mode #social ul li a {
+.dark-mode .social-icons a {
     color: #fff;
 }
 
-/* Stile del footer */
-#footer {
-    background-color: #f5f5f5;
-    color: #333;
-    text-align: center;
-    padding: 20px;
-    font-size: 14px;
+/* Stile dei link */
+a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
 }
 
-.dark-mode #footer {
-    background-color: #333;
-    color: #fff;
+.dark-mode a {
+    color: #4e93e8;
 }
 
-/* Stile del titolo */
-#title {
-    font-size: 48px;
-    text-align: center;
-    margin-bottom: 20px;
-    cursor: pointer;
-    margin-top: 3vh;
+a:hover {
+    color: #0056b3;
 }
 
-.title-container {
-    overflow-x: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-#title:hover  {
-    transform-origin: center center;
-    animation: rotateY 2s linear infinite;
-}
-
-@keyframes rotateY {
-    0% {
-        transform: rotateY(0deg);
-    }
-
-    100% {
-        transform: rotateY(360deg);
-    }
-}
-
-.profile-photo {
-    max-width: 5vw;
-    border-radius: 50%;
+.dark-mode a:hover {
+    color: #6db1ff;
 }
